@@ -10,9 +10,9 @@ module.exports = defineConfig({
     },
     defaultCommandTimeout: 30000,
     requestTimeout: 20000,
-    // eslint-disable-next-line no-unused-vars
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('@cypress/grep/src/plugin')(config)
+      return config
     },
   },
 });

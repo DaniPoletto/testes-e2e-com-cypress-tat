@@ -1,5 +1,4 @@
-import {cy, Cypress} from "cypress"
-
+/* globals Cypress, cy */ 
 Cypress.Commands.add('fillSignupFormAndSubmit', (email, password) => {
     cy.intercept('GET', '**/notes').as('getNotes')
     cy.visit('/signup')

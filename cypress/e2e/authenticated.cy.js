@@ -1,4 +1,4 @@
-import {cy, describe, it, beforeEach, Cypress} from "cypress"
+/* globals describe, beforeEach, it, cy, Cypress */ 
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Scenarios where authentication is a pre-condition', () => {

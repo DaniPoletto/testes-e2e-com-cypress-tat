@@ -1,4 +1,4 @@
-import {cy, describe, it} from "cypress"
+/* globals describe, it, cy */ 
 describe('Login', () => {
     it('successfully logs in', () => {
         cy.guiLogin()

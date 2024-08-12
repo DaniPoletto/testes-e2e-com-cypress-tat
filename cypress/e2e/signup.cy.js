@@ -1,4 +1,4 @@
-import {cy, describe, it, Cypress} from "cypress"
+/* globals describe, Cypress, it, cy */ 
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Sign up', () => {

@@ -1,11 +1,24 @@
 {
-    "extends": [
-      "plugin:cypress/recommended"
-    ],
-    "rules": {
-      "cypress/no-force": "error",
-      "cypress/assertion-before-screenshot": "error",
-      "cypress/no-pause": "error"
-    }
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true,
+    "cypress/globals": true
+  },
+  "globals": {
+      "cy": true
+  },
+  "extends": [
+    "plugin:cypress/recommended"
+  ],
+  "plugins": [
+    "cypress"
+  ],
+  "rules": {
+    "cypress/no-force": "error",
+    "cypress/assertion-before-screenshot": "error",
+    "cypress/no-pause": "error"
   }
+}
   

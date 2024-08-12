@@ -20,8 +20,8 @@
     "cypress": "^12.15.0",
     "cypress-iframe": "^1.0.1",
     "cypress-mailosaur": "^2.13.0",
-    "eslint": "^9.8.0",
-    "eslint-plugin-cypress": "^2.13.3",
+    "eslint": "^9.9.0",
+    "eslint-plugin-cypress": "^2.15.2",
     "globals": "^15.9.0"
   }
 }

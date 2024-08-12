@@ -3,12 +3,19 @@
         "browser": true,
         "commonjs": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "cypress/globals": true
     },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 12
+    "globals": {
+        "cy": true
     },
+    "extends": [
+        "eslint:recommended",
+        "plugin:cypress/recommended"
+    ],
+    "plugins": [
+        "cypress"
+    ],
     "rules": {
         "indent": [
             "error",

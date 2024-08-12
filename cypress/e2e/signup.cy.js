@@ -1,3 +1,4 @@
+import {cy, describe, it, Cypress} from "cypress"
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Sign up', () => {
